@@ -1,7 +1,8 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { Observable, Subject, ReplaySubject, from, of, range } from 'rxjs';
+import { Observable } from 'rxjs';
 import 'rxjs/add/operator/map';
+
 
 @Injectable({
   providedIn: 'root'
@@ -19,5 +20,8 @@ export class FeedsService {
     //console.log(body);
     return body;
   }
+  
+
+
   
 }
