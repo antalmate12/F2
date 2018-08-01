@@ -17,11 +17,10 @@ export class FeedsService {
   }
   public extractData(res: Response) {
     let body = res;
-    //console.log(body);
+    console.log(body);
     return body;
   }
   
-
 
   
 }
